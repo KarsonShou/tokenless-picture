@@ -1,0 +1,102 @@
+{
+  "purpose": "Source reference access test for the user-requested style review. Original public image bytes, unchanged. Artwork by Linn Fritz. IDs match local source-media inventory. Download success is not proof the web reviewer saw the image.",
+  "items": [
+    {
+      "id": "M0256",
+      "file": "M0256.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/540eb39ce4b0169f85a815f7/1623252944076-V1ES7MCU0BN0DB1438RU/LINNFRITZKANKEN4.png",
+      "sha256": "10ae5acffb977b0a23bb643fc5964ccee7be257d22c00226f6d05fcd0fd93c23",
+      "bytes": 822624,
+      "file_type": "RIFF (little-endian) data, Web/P image",
+      "dimension_probe": [
+        "  pixelWidth: 1429",
+        "  pixelHeight: 804"
+      ]
+    },
+    {
+      "id": "M0521",
+      "file": "M0521.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/540eb39ce4b0169f85a815f7/e51536f4-d037-4b26-a3e0-91ebcfbd450a/_Master_Illustration_4.jpg",
+      "sha256": "bdec625c35abe7489fb7ca53d617519da458ff86dad884581d6b36409049e6e0",
+      "bytes": 335378,
+      "file_type": "RIFF (little-endian) data, Web/P image",
+      "dimension_probe": [
+        "  pixelWidth: 2500",
+        "  pixelHeight: 1892"
+      ]
+    },
+    {
+      "id": "M0566",
+      "file": "M0566.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/540eb39ce4b0169f85a815f7/c1228757-1119-45f5-8741-a68eb5acae3f/Picknick.jpg",
+      "sha256": "6f12a4f2542a8949ef40a701d78a7f55ea41e178f68fd961d9e660a50a4ab426",
+      "bytes": 770268,
+      "file_type": "RIFF (little-endian) data, Web/P image",
+      "dimension_probe": [
+        "  pixelWidth: 2250",
+        "  pixelHeight: 2950"
+      ]
+    },
+    {
+      "id": "M0487",
+      "file": "M0487.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/540eb39ce4b0169f85a815f7/74fa0468-7e2c-436e-8d12-91beec4a09a6/Matcha_02.jpg",
+      "sha256": "d4252382e9d63c2c9983b62abfeb790bae0b2618ff498f1a4b3db80ace081a8b",
+      "bytes": 226802,
+      "file_type": "RIFF (little-endian) data, Web/P image",
+      "dimension_probe": [
+        "  pixelWidth: 2500",
+        "  pixelHeight: 2500"
+      ]
+    },
+    {
+      "id": "M0488",
+      "file": "M0488.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/540eb39ce4b0169f85a815f7/8ff1d1c9-ed06-43ad-8650-68aa3dc3d8d3/Matcha_03.jpg",
+      "sha256": "d8c1020446f87048fb7b46dfbd8cb73af9348f4fb927c3f13a6bf92b9bb70e17",
+      "bytes": 202328,
+      "file_type": "RIFF (little-endian) data, Web/P image",
+      "dimension_probe": [
+        "  pixelWidth: 2500",
+        "  pixelHeight: 2500"
+      ]
+    },
+    {
+      "id": "M0437",
+      "file": "M0437.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/540eb39ce4b0169f85a815f7/6aaaff45-1e20-4fff-874d-b49739c7c2ba/running.jpg",
+      "sha256": "356f472f869020a62f02a6eca5b5ad5f6af06c3802312dded4f4b4e30cd9f178",
+      "bytes": 243874,
+      "file_type": "RIFF (little-endian) data, Web/P image",
+      "dimension_probe": [
+        "  pixelWidth: 2500",
+        "  pixelHeight: 2500"
+      ]
+    },
+    {
+      "id": "M0426",
+      "file": "M0426.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/540eb39ce4b0169f85a815f7/93d878ce-b0a3-4d20-9644-a86902b17906/LOVE.jpg",
+      "sha256": "87c93fe3ed81b40e3d14d5954981b1c53464c51ef2c4698aaf13c3776ed8a332",
+      "bytes": 50822,
+      "file_type": "RIFF (little-endian) data, Web/P image",
+      "dimension_probe": [
+        "  pixelWidth: 1080",
+        "  pixelHeight: 1080"
+      ]
+    },
+    {
+      "id": "M0203",
+      "file": "M0203.webp",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/540eb39ce4b0169f85a815f7/1594109174472-VESQGPYAUDTHX02GFHDW/Shoes_Linn-Fritz_06.jpg",
+      "sha256": "d6a4b4482901a6b88044bd0a76e1a5eec38eff441e83f7e948576c6476cf280e",
+      "bytes": 94374,
+      "file_type": "RIFF (little-endian) data, Web/P image",
+      "dimension_probe": [
+        "  pixelWidth: 2160",
+        "  pixelHeight: 2160"
+      ]
+    }
+  ],
+  "transport_note": "The source CDN returns WebP bytes despite .jpg/.png URL suffixes. Stored files use .webp to match their actual encoding; bytes were not converted."
+}
