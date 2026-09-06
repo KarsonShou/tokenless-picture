@@ -1,11 +1,9 @@
 # Web review image evidence
 
-One selected AI-generated illustration shared for the requested web review. This is a historical sample, not a newly generated v12 result.
+Keep each project's review images and image manifest in its own subdirectory.
 
-| Image ID | File | Dimensions | SHA-256 |
-|---|---|---|---|
-| SAMPLE-01 | [pop-lilliput-sample-01.png](pop-lilliput-sample-01.png) | 1024 × 1536 | `066216f33eb6ab9446f128546d8f3070a6e04d44b56990889ed9eb59bf36ae09` |
+| Project | Evidence |
+|---|---|
+| Pop Lilliput | [pop-lilliput/](pop-lilliput/README.md) |
 
-![SAMPLE-01](pop-lilliput-sample-01.png)
-
-Only this selected image is published. No local project source, private input photograph, or account data is included.
+Publish only selected, authorized assets. Use commit-pinned image links for reviews so later directory changes do not change the reviewed evidence.
