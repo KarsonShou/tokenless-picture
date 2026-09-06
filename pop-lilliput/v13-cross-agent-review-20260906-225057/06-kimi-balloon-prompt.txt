@@ -1,0 +1,35 @@
+Canvas: 1024x1536 pixels, 2:3 aspect ratio. Compose the full image for this ratio; keep all required subjects inside the canvas.
+
+Subject: 一个小人双手举着一只过大的圆气球，被带得全身后仰腾空、双腿向后翘起，气球在头顶上方牵着一根细线；只有一个人与一只大气球，奶油色纯底，无其他物体。
+
+Create a pure flat graphic illustration on a solid #F8EDD5 background with generous negative space. Fill the entire background with this one uniform color: no gradient, vignette, texture, spotlight, ground shadow or lighting falloff. No supplied image is an edit target. Create fully drawn artwork; any supplied style reference remains reference-only. Do not add text.
+
+Add exactly 1 character(s).
+
+STRUCTURED CAST: applies only to added people. Subject supplies context; these are the individual pose plans.
+Width unit=1 head shape, excluding attached hair extensions. MODEL CALIBRATION, not artist statistics.
+Measure across the local limb axis, not its horizontal bounding box. Torso and pelvis turn independently of arm breadth.
+Left/right belong to each character. Null nodes stay hidden; never expose them to complete a diagram.
+CHARACTER balloon_rider: 画面中央偏下，全身完整落在画幅内，整体向右上方倾斜，面朝右上方头顶的气球; other; frame=full.
+Appearance: skin=蜜桃浅肤色; hair=纯黑色贴头圆髻，紧贴头顶的单色团块; clothes=番茄红短袖上衣；钴蓝色高腰阔腿长裤，裤脚盖住脚踝；芥末黄圆头巨鞋配黑罗纹袜口.
+Middle mass: 胸腹为独立的短块，向后仰倒，与骨盆之间有明确方向变化；不与手臂连成一团. Action: 双手在头顶右上方共同握紧气球细线的末端，身体被气球带得向后腾空，双膝弯曲、小腿向后翘起，全身离地.
+Head width=1; face=profile. Back adds no face; occluded face stays hidden.
+Lower garment=trousers; do not expose anatomy hidden by clothing.
+balloon_rider.left_arm: visible shaft-width targets upper_arm=1.2, forearm=1.1; not just enlarged hand, shoe or cuff.
+Owned path balloon_rider.left_arm: shoulder=左肩 -> elbow=向头顶方向抬起的左肘 -> wrist=头顶右上方的左腕 -> hand=握住气球线的左手. Never attach to another side or person.
+balloon_rider.right_arm: visible shaft-width targets upper_arm=1.2, forearm=1.1; not just enlarged hand, shoe or cuff.
+Owned path balloon_rider.right_arm: shoulder=右肩 -> elbow=向头顶方向抬起的右肘 -> wrist=头顶右上方与左腕相邻的右腕 -> hand=握住气球线的右手. Never attach to another side or person.
+balloon_rider.left_leg: visible shaft-width targets thigh=1.9, shin=1.7; not just enlarged hand, shoe or cuff.
+Owned path balloon_rider.left_leg: hip=左髋 -> knee=向后弯曲的左膝 -> ankle=向后上方翘起的左踝 -> foot=朝向后上方的左脚. Never attach to another side or person.
+balloon_rider.right_leg: visible shaft-width targets thigh=1.9, shin=1.7; not just enlarged hand, shoe or cuff.
+Owned path balloon_rider.right_leg: hip=右髋 -> knee=向后弯曲的右膝 -> ankle=向后上方翘起的右踝 -> foot=朝向后上方的右脚. Never attach to another side or person.
+CONTACT balloon_rider.right_hand -> drawn:气球细线末端; visible; evidence: 右手与左手手指组共同握住线端，细线从双手向上连到头顶的大圆气球.
+QA must inspect every person's skin, hair, clothing, silhouette and contacts. Lexical differences do not verify visual diversity.
+
+Build added people from directional flat shapes, not ordinary figures with oversized accessories. Start with the action and support, then place a separately turning torso and pelvis. Keep the visible head shape itself small. Carry a broad upper-arm shape into a broad forearm through the elbow turn; use a short wrist transition into the working hand. Arm breadth is independent of chest and belly size. Where legs are shown, their main thigh and lower-leg shafts carry more breadth than the arms, not just wider cuffs or shoes. Coordinate an outside sweep with an inside change of direction at each turn. Use overlaps, contour breaks and varied gaps to explain shoulders, elbows, waist and hips. Each limb belongs to its own person and side throughout its path. For sitting, distinguish the thigh directions, knee turns and continuations with consistent overlap and the stated pelvis support. Draw only the parts made visible by framing and occlusion. Clothing can conceal joints. Required grips and supports must read clearly. Quiet and upright poses are valid. Fine dark contours and sparse structural lines organize flat color, dark accents and open space. Contours can be subtly uneven, not noisy.
+
+Apply this construction only to added content; preserved inputs keep their own medium and appearance. Establish silhouette before facial marks or garment detail. Describe added skin and fabric using solid color, contour direction and overlap rather than smooth tonal modeling. Graphic highlights, nails, simplified finger groups and divided soles are allowed. Avoid extra limbs, branching leg tubes, detached hands, invented supports and white sticker borders. Separate hair extensions from the small head. Execute each named person's appearance, orientation and contacts. References transfer their declared structural role, not identities or scenes. Never reveal a hidden knee, face or leg to satisfy a generic anatomy instruction. Inspect the result separately; text does not certify geometry or preservation.
+
+Use natural simplified hands appropriate to the action; an open or spread hand is allowed when the action needs it, but never add extra limbs, fused hands, or accidental attachments.
+
+Treat this as a generation instruction, not a guarantee. Inspect the rendered result separately.

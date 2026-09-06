@@ -1,0 +1,59 @@
+Canvas: 1024x1536 pixels, 2:3 aspect ratio. Compose the full image for this ratio; keep all required subjects inside the canvas.
+
+Subject: 两位小人在一小堆干草旁传递一只橙红色气球：左侧人物坐草堆接绳，右侧人物站着递绳。两人都完整入画，互动放在画面中下部；奶油色单色背景，大量留白。只有两人、草堆和一只气球及其细绳，不加文字或额外道具。
+
+Create a pure flat graphic illustration on a solid #F8EDD5 background with generous negative space. Fill the entire background with this one uniform color: no gradient, vignette, texture, spotlight, ground shadow or lighting falloff. No supplied image is an edit target. Create fully drawn artwork; any supplied style reference remains reference-only. Do not add text.
+
+Add exactly 2 character(s).
+
+STRUCTURED CAST: applies only to added people. Subject supplies context; these are the individual pose plans.
+Width unit=1 head shape, excluding attached hair extensions. MODEL CALIBRATION, not artist statistics.
+Measure across the local limb axis, not its horizontal bounding box. Torso and pelvis turn independently of arm breadth.
+Left/right belong to each character. Null nodes stay hidden; never expose them to complete a diagram.
+CHARACTER seated: 画面偏左，完整坐在矮草堆右半部，身体朝右侧同伴; seated; frame=full.
+Appearance: skin=浅暖桃肤色，纯色色块; hair=浅金色齐下巴直发，头部主体仍小; clothes=珊瑚红短袖衫，袖口止于上臂中段；浅鼠尾草绿长裤；深棕色平底鞋.
+Middle mass: 胸腹为短而独立的略向右转的形状，腰线收束，髋随双腿展开；胸腹不与肩袖合成圆团. Action: 右手伸向同伴接住气球细绳；左手撑在身侧草堆上，双脚自然落地.
+Head width=1; face=profile. Back adds no face; occluded face stays hidden.
+Lower garment=trousers; do not expose anatomy hidden by clothing.
+seated.left_arm: visible shaft-width targets upper_arm=1.2, forearm=1.1; not just enlarged hand, shoe or cuff.
+Owned path seated.left_arm: shoulder=画面左侧稍后的肩 -> elbow=向左侧草堆方向弯曲的肘 -> wrist=下移至身旁草堆顶的腕 -> hand=压在草堆顶面的手. Never attach to another side or person.
+seated.right_arm: visible shaft-width targets upper_arm=1.2, forearm=1.1; not just enlarged hand, shoe or cuff.
+Owned path seated.right_arm: shoulder=靠同伴一侧的肩 -> elbow=向右前方弯曲的肘 -> wrist=气球绳下端靠自己一侧的腕 -> hand=握住气球绳下端的手. Never attach to another side or person.
+seated.left_leg: visible shaft-width targets thigh=1.9, shin=1.7; not just enlarged hand, shoe or cuff.
+Owned path seated.left_leg: hip=画面左侧的髋 -> knee=朝左前方伸出的膝 -> ankle=该膝下方稍向外的踝 -> foot=向画面左前方落地的鞋. Never attach to another side or person.
+seated.right_leg: visible shaft-width targets thigh=1.9, shin=1.7; not just enlarged hand, shoe or cuff.
+Owned path seated.right_leg: hip=画面右侧的髋 -> knee=朝右前方伸出的膝 -> ankle=该膝下方的踝 -> foot=朝右轻微转向的落地鞋. Never attach to another side or person.
+CONTACT seated.pelvis -> drawn:矮草堆顶面; visible; evidence: 臀部下缘落在草堆上，草梗在身侧露出.
+CONTACT seated.left_hand -> drawn:身旁草堆顶面; visible; evidence: 掌沿压住一小束草梗，手与草堆轮廓相接.
+CONTACT seated.right_hand -> drawn:气球细绳下端; visible; evidence: 细绳进入指组夹缝，手是封闭握持形状.
+CONTACT seated.left_foot -> drawn:地面; visible; evidence: 鞋底轻压地面.
+CONTACT seated.right_foot -> drawn:地面; visible; evidence: 鞋底朝向清楚，落在与另一只鞋同一地面.
+CHARACTER standing: 画面偏右，完整站立并微微朝左侧同伴倾身；两人轮廓各自可辨; standing; frame=full.
+Appearance: skin=中等暖棕肤色，纯色色块; hair=赤棕色低丸子头，短碎发；发髻是附加形状; clothes=钴蓝无袖上衣，裸露上臂；赭橙色长裤；奶油色鞋配深蓝鞋底.
+Middle mass: 独立而略朝左转的短胸腹形状，腰与髋有转向差异，肩部接入粗臂而不加大腹部. Action: 左手捏着气球绳较高的位置向同伴递送；右手自然搭在自己腰侧；双脚一前一后稳定支撑.
+Head width=1; face=profile. Back adds no face; occluded face stays hidden.
+Lower garment=trousers; do not expose anatomy hidden by clothing.
+standing.left_arm: visible shaft-width targets upper_arm=1.2, forearm=1.1; not just enlarged hand, shoe or cuff.
+Owned path standing.left_arm: shoulder=靠同伴一侧的肩 -> elbow=朝左伸出的弯肘 -> wrist=两人之间气球绳旁的腕 -> hand=捏住细绳的手. Never attach to another side or person.
+standing.right_arm: visible shaft-width targets upper_arm=1.2, forearm=1.1; not just enlarged hand, shoe or cuff.
+Owned path standing.right_arm: shoulder=远离同伴一侧的肩 -> elbow=向右后方打开的肘 -> wrist=回到自己腰侧的腕 -> hand=自然贴在自己腰侧的手. Never attach to another side or person.
+standing.left_leg: visible shaft-width targets thigh=1.9, shin=1.7; not just enlarged hand, shoe or cuff.
+Owned path standing.left_leg: hip=画面左侧的髋 -> knee=轻向左前移的膝 -> ankle=其下方略向左的踝 -> foot=朝左前方着地的鞋. Never attach to another side or person.
+standing.right_leg: visible shaft-width targets thigh=1.9, shin=1.7; not just enlarged hand, shoe or cuff.
+Owned path standing.right_leg: hip=画面右侧的髋 -> knee=自然微曲的膝 -> ankle=该膝下方的踝 -> foot=稍向画面右方落地的鞋. Never attach to another side or person.
+CONTACT standing.left_hand -> drawn:气球细绳中段; visible; evidence: 绳穿过指组之间，向下连接同伴手中绳段，向上连接气球.
+CONTACT standing.right_hand -> self:waist; visible; evidence: 掌沿与自己腰侧轮廓重叠.
+CONTACT standing.left_foot -> drawn:地面; visible; evidence: 前脚鞋底落地.
+CONTACT standing.right_foot -> drawn:地面; visible; evidence: 后脚鞋底与地面相接.
+QA must inspect every person's skin, hair, clothing, silhouette and contacts. Lexical differences do not verify visual diversity.
+Keep the specified visible appearance differences; do not clone or mirror one person.
+STYLE REFERENCE R1, for seated, standing, roles=construction, bare_arms: 只参考小头、独立胸腹、裸臂持续宽度和更宽的腿段，不复制跑步姿势、配色或背景物件. Transfer only these observations, not identity, count or composition.
+STYLE REFERENCE R2, for seated, roles=pose: 只参考坐姿两条大腿、膝转向和小腿各自归属，以及骨盆支撑；不复制椅子、烟、酒杯、衣服或身份. Transfer only these observations, not identity, count or composition.
+
+Build added people from directional flat shapes, not ordinary figures with oversized accessories. Start with the action and support, then place a separately turning torso and pelvis. Keep the visible head shape itself small. Carry a broad upper-arm shape into a broad forearm through the elbow turn; use a short wrist transition into the working hand. Arm breadth is independent of chest and belly size. Where legs are shown, their main thigh and lower-leg shafts carry more breadth than the arms, not just wider cuffs or shoes. Coordinate an outside sweep with an inside change of direction at each turn. Use overlaps, contour breaks and varied gaps to explain shoulders, elbows, waist and hips. Each limb belongs to its own person and side throughout its path. For sitting, distinguish the thigh directions, knee turns and continuations with consistent overlap and the stated pelvis support. Draw only the parts made visible by framing and occlusion. Clothing can conceal joints. Required grips and supports must read clearly. Quiet and upright poses are valid. Fine dark contours and sparse structural lines organize flat color, dark accents and open space. Contours can be subtly uneven, not noisy.
+
+Apply this construction only to added content; preserved inputs keep their own medium and appearance. Establish silhouette before facial marks or garment detail. Describe added skin and fabric using solid color, contour direction and overlap rather than smooth tonal modeling. Graphic highlights, nails, simplified finger groups and divided soles are allowed. Avoid extra limbs, branching leg tubes, detached hands, invented supports and white sticker borders. Separate hair extensions from the small head. Execute each named person's appearance, orientation and contacts. References transfer their declared structural role, not identities or scenes. Never reveal a hidden knee, face or leg to satisfy a generic anatomy instruction. Inspect the result separately; text does not certify geometry or preservation.
+
+Use natural simplified hands appropriate to the action; an open or spread hand is allowed when the action needs it, but never add extra limbs, fused hands, or accidental attachments.
+
+Treat this as a generation instruction, not a guarantee. Inspect the rendered result separately.

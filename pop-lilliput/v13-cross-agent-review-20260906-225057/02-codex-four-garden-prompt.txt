@@ -1,0 +1,93 @@
+Canvas: 1536x1024 pixels, 3:2 aspect ratio. Compose the full image for this ratio; keep all required subjects inside the canvas.
+
+Subject: 巨型花园，四位不同外观的小人共同照料一朵橙红色巨花。横向编辑插画：一株大花位于中央，花冠在上方；四人沿画面下方展开，分别浇水、扶茎、搬三粒种子、坐种子袋休息。花根只有两枚叶片。人物占画面高度约一半，动作形成连贯故事，各人有足够空隙，头与手脚均不裁切。背景纯浅薄荷绿，无文字、无边框，无无关装饰。
+
+Create a pure flat graphic illustration on a solid #D7EBD5 background with generous negative space. Fill the entire background with this one uniform color: no gradient, vignette, texture, spotlight, ground shadow or lighting falloff. No supplied image is an edit target. Create fully drawn artwork; any supplied style reference remains reference-only. Do not add text.
+
+Add exactly 4 character(s).
+
+STRUCTURED CAST: applies only to added people. Subject supplies context; these are the individual pose plans.
+Width unit=1 head shape, excluding attached hair extensions. MODEL CALIBRATION, not artist statistics.
+Measure across the local limb axis, not its horizontal bounding box. Torso and pelvis turn independently of arm breadth.
+Left/right belong to each character. Null nodes stay hidden; never expose them to complete a diagram.
+CHARACTER water: 最左侧朝右，身体微前倾，与中央人留出手臂空隙; standing; frame=full.
+Appearance: skin=浅桃色; hair=乌黑短直发，短刘海; clothes=钴蓝无袖背心，珊瑚红宽腿裤，黑色鞋配白底.
+Middle mass: 胸腹短小而明确收束，肩与髋独立转向；上臂接入肩窝，手臂宽度不靠扩大胸腹获得。头部主体远小于宽厚臂段和裤腿，发型不扩大头颅。. Action: 双手倾斜提一只奶油黄洒水壶，少量水滴落向花根；裸露的宽厚上臂和前臂完整可见.
+Head width=1; face=profile. Back adds no face; occluded face stays hidden.
+Lower garment=trousers; do not expose anatomy hidden by clothing.
+water.left_arm: visible shaft-width targets upper_arm=1.4, forearm=1.3; not just enlarged hand, shoe or cuff.
+Owned path water.left_arm: shoulder=左肩 -> elbow=左下方弯肘 -> wrist=壶底下的左腕 -> hand=托住壶底的左手. Never attach to another side or person.
+water.right_arm: visible shaft-width targets upper_arm=1.4, forearm=1.3; not just enlarged hand, shoe or cuff.
+Owned path water.right_arm: shoulder=右肩 -> elbow=向前伸出并屈转的右肘 -> wrist=壶柄旁的右腕 -> hand=握住壶柄的右手. Never attach to another side or person.
+water.left_leg: visible shaft-width targets thigh=2.1, shin=1.9; not just enlarged hand, shoe or cuff.
+Owned path water.left_leg: hip=左髋 -> knee=向左略弯的左膝 -> ankle=左膝下的左踝 -> foot=向左平放的左鞋. Never attach to another side or person.
+water.right_leg: visible shaft-width targets thigh=2.1, shin=1.9; not just enlarged hand, shoe or cuff.
+Owned path water.right_leg: hip=右髋 -> knee=向花根方向略前移的右膝 -> ankle=右膝下的右踝 -> foot=朝右着地的右鞋. Never attach to another side or person.
+CONTACT water.left_hand -> drawn:洒水壶底; visible; evidence: 掌心托住壶底外缘.
+CONTACT water.right_hand -> drawn:洒水壶把手; visible; evidence: 手指包围把手.
+CONTACT water.left_foot -> drawn:平面地面; visible; evidence: 左鞋底完整着地.
+CONTACT water.right_foot -> drawn:平面地面; visible; evidence: 右鞋底独立着地.
+CHARACTER stem: 中央偏左，站在巨花茎左边朝右；人物与花茎之间能看清手臂路径; standing; frame=full.
+Appearance: skin=深暖棕色; hair=浅米白极短卷发; clothes=柠檬黄无袖上衣，深青绿宽腿裤，粉色鞋配黑底.
+Middle mass: 胸腹短小而明确收束，肩与髋独立转向；上臂接入肩窝，手臂宽度不靠扩大胸腹获得。头部主体远小于宽厚臂段和裤腿，发型不扩大头颅。. Action: 用双手轻扶花茎，双肘一高一低，身体略侧转，脚分开稳定站立.
+Head width=1; face=profile. Back adds no face; occluded face stays hidden.
+Lower garment=trousers; do not expose anatomy hidden by clothing.
+stem.left_arm: visible shaft-width targets upper_arm=1.4, forearm=1.3; not just enlarged hand, shoe or cuff.
+Owned path stem.left_arm: shoulder=左肩 -> elbow=向上弯曲的左肘 -> wrist=花茎较高位置的左腕 -> hand=扶花茎上段的左手. Never attach to another side or person.
+stem.right_arm: visible shaft-width targets upper_arm=1.4, forearm=1.3; not just enlarged hand, shoe or cuff.
+Owned path stem.right_arm: shoulder=右肩 -> elbow=靠近胸前的右肘 -> wrist=花茎较低位置的右腕 -> hand=扶花茎下段的右手. Never attach to another side or person.
+stem.left_leg: visible shaft-width targets thigh=2.1, shin=1.9; not just enlarged hand, shoe or cuff.
+Owned path stem.left_leg: hip=左髋 -> knee=左下方微弯的左膝 -> ankle=左膝下的左踝 -> foot=向左着地的左鞋. Never attach to another side or person.
+stem.right_leg: visible shaft-width targets thigh=2.1, shin=1.9; not just enlarged hand, shoe or cuff.
+Owned path stem.right_leg: hip=右髋 -> knee=右侧自然伸展的右膝 -> ankle=右膝下的右踝 -> foot=向右着地的右鞋. Never attach to another side or person.
+CONTACT stem.left_hand -> drawn:巨花茎中段; visible; evidence: 左手包住茎一侧，茎仍连续.
+CONTACT stem.right_hand -> drawn:巨花茎下段; visible; evidence: 右掌在左手下方扶住茎.
+CONTACT stem.left_foot -> drawn:平面地面; visible; evidence: 左鞋底完整着地.
+CONTACT stem.right_foot -> drawn:平面地面; visible; evidence: 右鞋底独立着地.
+CHARACTER seeds: 中央偏右面向左，走向花根；不与扶茎人物重叠; moving; frame=full.
+Appearance: skin=暖橄榄肤色; hair=赤棕色高马尾，小头与马尾分开成形; clothes=乳白无袖背心，钴蓝宽腿裤，砖红鞋.
+Middle mass: 胸腹短小而明确收束，肩与髋独立转向；上臂接入肩窝，手臂宽度不靠扩大胸腹获得。头部主体远小于宽厚臂段和裤腿，发型不扩大头颅。. Action: 双臂抱住三粒巨大的椭圆种子，种子位于腰前，露出头、胸和两条粗臂；迈出一步，前脚落地后脚尖支撑.
+Head width=1; face=profile. Back adds no face; occluded face stays hidden.
+Lower garment=trousers; do not expose anatomy hidden by clothing.
+seeds.left_arm: visible shaft-width targets upper_arm=1.4, forearm=1.3; not just enlarged hand, shoe or cuff.
+Owned path seeds.left_arm: shoulder=左肩 -> elbow=左下方外弯的左肘 -> wrist=种子下缘左腕 -> hand=托住种子底部的左手. Never attach to another side or person.
+seeds.right_arm: visible shaft-width targets upper_arm=1.4, forearm=1.3; not just enlarged hand, shoe or cuff.
+Owned path seeds.right_arm: shoulder=右肩 -> elbow=右侧向前转的右肘 -> wrist=种子侧边右腕 -> hand=环抱种子侧面的右手. Never attach to another side or person.
+seeds.left_leg: visible shaft-width targets thigh=2.1, shin=1.9; not just enlarged hand, shoe or cuff.
+Owned path seeds.left_leg: hip=左髋 -> knee=向前抬而微弯的左膝 -> ankle=前伸左踝 -> foot=向左落地的左鞋. Never attach to another side or person.
+seeds.right_leg: visible shaft-width targets thigh=2.1, shin=1.9; not just enlarged hand, shoe or cuff.
+Owned path seeds.right_leg: hip=右髋 -> knee=向后弯的右膝 -> ankle=向后伸的右踝 -> foot=后方着地的右鞋尖. Never attach to another side or person.
+CONTACT seeds.left_hand -> drawn:三粒种子的底部; visible; evidence: 宽大的掌面明确承托种子.
+CONTACT seeds.right_hand -> drawn:三粒种子的侧面; visible; evidence: 手臂与手掌环抱种子外缘.
+CONTACT seeds.left_foot -> drawn:平面地面; visible; evidence: 前鞋底着地.
+CONTACT seeds.right_foot -> drawn:平面地面; visible; evidence: 后鞋尖着地.
+CHARACTER rest: 最右侧坐在矮而宽的浅黄色种子袋上，朝左看同伴；双腿伸向左右前方，四肢完整入画; seated; frame=full.
+Appearance: skin=浅暖米色; hair=浅紫色齐下巴波波头; clothes=番茄红无袖上衣，淡紫宽腿裤，黑色平底鞋.
+Middle mass: 胸腹短小而明确收束，肩与髋独立转向；上臂接入肩窝，手臂宽度不靠扩大胸腹获得。头部主体远小于宽厚臂段和裤腿，发型不扩大头颅。. Action: 一只手撑种子袋，另一只手放在自己大腿上，轻松休息；两条宽腿各有明确膝转向，双脚落地.
+Head width=1; face=profile. Back adds no face; occluded face stays hidden.
+Lower garment=trousers; do not expose anatomy hidden by clothing.
+rest.left_arm: visible shaft-width targets upper_arm=1.4, forearm=1.3; not just enlarged hand, shoe or cuff.
+Owned path rest.left_arm: shoulder=左肩 -> elbow=向袋边下折的左肘 -> wrist=种子袋顶左腕 -> hand=撑袋面的左手. Never attach to another side or person.
+rest.right_arm: visible shaft-width targets upper_arm=1.4, forearm=1.3; not just enlarged hand, shoe or cuff.
+Owned path rest.right_arm: shoulder=右肩 -> elbow=身体前方外弯的右肘 -> wrist=右大腿上的右腕 -> hand=平放右大腿的右手. Never attach to another side or person.
+rest.left_leg: visible shaft-width targets thigh=2.1, shin=1.9; not just enlarged hand, shoe or cuff.
+Owned path rest.left_leg: hip=左髋 -> knee=向左前方伸出的左膝 -> ankle=左膝下的左踝 -> foot=朝左着地的左鞋. Never attach to another side or person.
+rest.right_leg: visible shaft-width targets thigh=2.1, shin=1.9; not just enlarged hand, shoe or cuff.
+Owned path rest.right_leg: hip=右髋 -> knee=向右前方伸出的右膝 -> ankle=右膝下的右踝 -> foot=向右着地的右鞋. Never attach to another side or person.
+CONTACT rest.pelvis -> drawn:矮种子袋顶面; visible; evidence: 臀部坐实袋顶，两边袋面露出.
+CONTACT rest.left_hand -> drawn:种子袋顶左侧; visible; evidence: 掌沿与袋面接触.
+CONTACT rest.right_hand -> self:right_thigh; visible; evidence: 掌心落在自己右大腿上.
+CONTACT rest.left_foot -> drawn:平面地面; visible; evidence: 左鞋底完整着地.
+CONTACT rest.right_foot -> drawn:平面地面; visible; evidence: 右鞋底独立着地.
+QA must inspect every person's skin, hair, clothing, silhouette and contacts. Lexical differences do not verify visual diversity.
+Keep the specified visible appearance differences; do not clone or mirror one person.
+STYLE REFERENCE R1, for water, stem, seeds, rest, roles=construction, bare_arms, line: 主要人物构造参考：转移非常小的头主体、短小独立胸腹、持续宽厚的裸露上臂和前臂、更宽的长裤腿、细深色线。不要复制跑步姿势、香蕉、鞋带和红色背景。. Transfer only these observations, not identity, count or composition.
+STYLE REFERENCE R2, for rest, roles=pose: 只参考分腿坐姿的髋膝踝连续关系，双腿均有独立宽形体；不带入烟酒、椅子和原人物身份。. Transfer only these observations, not identity, count or composition.
+
+Build added people from directional flat shapes, not ordinary figures with oversized accessories. Start with the action and support, then place a separately turning torso and pelvis. Keep the visible head shape itself small. Carry a broad upper-arm shape into a broad forearm through the elbow turn; use a short wrist transition into the working hand. Arm breadth is independent of chest and belly size. Where legs are shown, their main thigh and lower-leg shafts carry more breadth than the arms, not just wider cuffs or shoes. Coordinate an outside sweep with an inside change of direction at each turn. Use overlaps, contour breaks and varied gaps to explain shoulders, elbows, waist and hips. Each limb belongs to its own person and side throughout its path. For sitting, distinguish the thigh directions, knee turns and continuations with consistent overlap and the stated pelvis support. Draw only the parts made visible by framing and occlusion. Clothing can conceal joints. Required grips and supports must read clearly. Quiet and upright poses are valid. Fine dark contours and sparse structural lines organize flat color, dark accents and open space. Contours can be subtly uneven, not noisy.
+
+Apply this construction only to added content; preserved inputs keep their own medium and appearance. Establish silhouette before facial marks or garment detail. Describe added skin and fabric using solid color, contour direction and overlap rather than smooth tonal modeling. Graphic highlights, nails, simplified finger groups and divided soles are allowed. Avoid extra limbs, branching leg tubes, detached hands, invented supports and white sticker borders. Separate hair extensions from the small head. Execute each named person's appearance, orientation and contacts. References transfer their declared structural role, not identities or scenes. Never reveal a hidden knee, face or leg to satisfy a generic anatomy instruction. Inspect the result separately; text does not certify geometry or preservation.
+
+Use natural simplified hands appropriate to the action; an open or spread hand is allowed when the action needs it, but never add extra limbs, fused hands, or accidental attachments.
+
+Treat this as a generation instruction, not a guarantee. Inspect the rendered result separately.

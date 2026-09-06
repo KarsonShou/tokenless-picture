@@ -1,0 +1,37 @@
+Canvas: 1024x1536 pixels, 2:3 aspect ratio. Compose the full image for this ratio; keep all required subjects inside the canvas.
+
+Subject: 一个小人站在一条极细的水平地面线上，被手里的大气球轻轻往上拽得脚跟离地、双脚前脚掌踩在线上；只有一个人、一只大气球与脚下一条细地面线，气球线从右手一直连到头顶上方的大圆气球，奶油色纯底，无其他物体。
+
+Create a pure flat graphic illustration on a solid #F8EDD5 background with generous negative space. Fill the entire background with this one uniform color: no gradient, vignette, texture, spotlight, ground shadow or lighting falloff. No supplied image is an edit target. Create fully drawn artwork; any supplied style reference remains reference-only. Do not add text.
+
+Add exactly 1 character(s).
+
+STRUCTURED CAST: applies only to added people. Subject supplies context; these are the individual pose plans.
+Width unit=1 head shape, excluding attached hair extensions. MODEL CALIBRATION, not artist statistics.
+Measure across the local limb axis, not its horizontal bounding box. Torso and pelvis turn independently of arm breadth.
+Left/right belong to each character. Null nodes stay hidden; never expose them to complete a diagram.
+CHARACTER balloon_holder: 画面中央偏下，双脚落在画面底部的细地面线上，整个身体直立并略微向右上方拉伸，面朝画面右上方仰望气球；完整落在画幅内; standing; frame=full.
+Appearance: skin=浅暖棕肤色; hair=黑色齐耳短发，发顶一小撮翘起的呆毛; clothes=芥末黄长袖上衣束进裤腰；赤陶红高腰阔腿长裤，裤脚盖到鞋面；钴蓝色圆头大鞋，奶油色鞋带.
+Middle mass: 胸腹为独立的短梯形，向右上方轻轻挺起，腰与髋之间有方向变化；不与手臂连成圆团. Action: 右手高举过头顶握紧气球线末端，线向上连到头顶上方的大圆气球；左手向左下方自然张开维持平衡；双脚前脚掌踩在细地面线上、脚跟抬起离线，膝盖伸直，被气球轻轻向上拽.
+Head width=1; face=profile. Back adds no face; occluded face stays hidden.
+Lower garment=trousers; do not expose anatomy hidden by clothing.
+balloon_holder.left_arm: visible shaft-width targets upper_arm=1.2, forearm=1.1; not just enlarged hand, shoe or cuff.
+Owned path balloon_holder.left_arm: shoulder=左肩 -> elbow=向外张开的左肘 -> wrist=向左下方伸展的腕 -> hand=五指自然张开的左手. Never attach to another side or person.
+balloon_holder.right_arm: visible shaft-width targets upper_arm=1.2, forearm=1.1; not just enlarged hand, shoe or cuff.
+Owned path balloon_holder.right_arm: shoulder=右肩 -> elbow=高举过头顶的右肘 -> wrist=头顶右上方的腕 -> hand=握紧气球线末端的右手. Never attach to another side or person.
+balloon_holder.left_leg: visible shaft-width targets thigh=1.9, shin=1.7; not just enlarged hand, shoe or cuff.
+Owned path balloon_holder.left_leg: hip=左髋 -> knee=伸直的左膝 -> ankle=抬起脚跟的左踝 -> foot=前脚掌踩在地面线上的左脚. Never attach to another side or person.
+balloon_holder.right_leg: visible shaft-width targets thigh=1.9, shin=1.7; not just enlarged hand, shoe or cuff.
+Owned path balloon_holder.right_leg: hip=右髋 -> knee=伸直的右膝 -> ankle=抬起脚跟的右踝 -> foot=前脚掌踩线承重的右脚. Never attach to another side or person.
+CONTACT balloon_holder.right_hand -> drawn:气球线末端; visible; evidence: 右手手指组握住线端，线从拳头向上连到大圆气球.
+CONTACT balloon_holder.left_foot -> drawn:细地面线; visible; evidence: 左脚前脚掌踩在线上，脚跟抬离.
+CONTACT balloon_holder.right_foot -> drawn:细地面线; visible; evidence: 右脚前脚掌踩线承重，脚跟抬离.
+QA must inspect every person's skin, hair, clothing, silhouette and contacts. Lexical differences do not verify visual diversity.
+
+Build added people from directional flat shapes, not ordinary figures with oversized accessories. Start with the action and support, then place a separately turning torso and pelvis. Keep the visible head shape itself small. Carry a broad upper-arm shape into a broad forearm through the elbow turn; use a short wrist transition into the working hand. Arm breadth is independent of chest and belly size. Where legs are shown, their main thigh and lower-leg shafts carry more breadth than the arms, not just wider cuffs or shoes. Coordinate an outside sweep with an inside change of direction at each turn. Use overlaps, contour breaks and varied gaps to explain shoulders, elbows, waist and hips. Each limb belongs to its own person and side throughout its path. For sitting, distinguish the thigh directions, knee turns and continuations with consistent overlap and the stated pelvis support. Draw only the parts made visible by framing and occlusion. Clothing can conceal joints. Required grips and supports must read clearly. Quiet and upright poses are valid. Fine dark contours and sparse structural lines organize flat color, dark accents and open space. Contours can be subtly uneven, not noisy.
+
+Apply this construction only to added content; preserved inputs keep their own medium and appearance. Establish silhouette before facial marks or garment detail. Describe added skin and fabric using solid color, contour direction and overlap rather than smooth tonal modeling. Graphic highlights, nails, simplified finger groups and divided soles are allowed. Avoid extra limbs, branching leg tubes, detached hands, invented supports and white sticker borders. Separate hair extensions from the small head. Execute each named person's appearance, orientation and contacts. References transfer their declared structural role, not identities or scenes. Never reveal a hidden knee, face or leg to satisfy a generic anatomy instruction. Inspect the result separately; text does not certify geometry or preservation.
+
+Use natural simplified hands appropriate to the action; an open or spread hand is allowed when the action needs it, but never add extra limbs, fused hands, or accidental attachments.
+
+Treat this as a generation instruction, not a guarantee. Inspect the rendered result separately.

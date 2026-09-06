@@ -1,0 +1,104 @@
+{
+  "scope": "Six generated outputs, not six independent tests. 04/05 same source cluster. No claim of controlled backend comparison.",
+  "items": [
+    {
+      "id": "01",
+      "file": "01-codex-balloon-pair.png",
+      "agent": "Codex",
+      "cluster": "balloon-pair",
+      "sha256": "0a85096ab082336c7400e85bd0ca9baf0eb1dfeda132e90ab70b4ea2e93550b0",
+      "recipe_version": "13.0",
+      "character_blocks_sha256": "d41f27ced75a41d20e7e4596c443715f6316a3d7f4febf5ac72d4da32e8a39cb",
+      "model_user_statement": "all generated using image-2",
+      "model_observed": "builtin image_gen did not expose actual model id",
+      "prompt_file": "01-codex-balloon-pair-prompt.txt",
+      "prompt_sha256": "bb305c845edd40dc10db2f30e9f9525cada7ed069e46890973b5d00dc255307f",
+      "references_count": 2
+    },
+    {
+      "id": "02",
+      "file": "02-codex-four-garden.png",
+      "agent": "Codex",
+      "cluster": "four-garden",
+      "sha256": "b2c93cb722c9c62db4117e592d1011e549d2b0585c7409aba881943d91f387c1",
+      "recipe_version": "13.0",
+      "character_blocks_sha256": "d41f27ced75a41d20e7e4596c443715f6316a3d7f4febf5ac72d4da32e8a39cb",
+      "model_user_statement": "all generated using image-2",
+      "model_observed": "builtin image_gen did not expose actual model id",
+      "prompt_file": "02-codex-four-garden-prompt.txt",
+      "prompt_sha256": "8c6f43a1f1a55d042fb3fd2d768bd6c97e85920960692c8cac31758b34d4cd06",
+      "references_count": 2
+    },
+    {
+      "id": "03",
+      "file": "03-codex-perfume-three.png",
+      "agent": "Codex",
+      "cluster": "perfume-photo",
+      "sha256": "8223fb00a613b718092f150c7567074ee43a57f2796f1de7add2695d0c1ee5d0",
+      "recipe_version": "13.0",
+      "character_blocks_sha256": "d41f27ced75a41d20e7e4596c443715f6316a3d7f4febf5ac72d4da32e8a39cb",
+      "model_user_statement": "all generated using image-2",
+      "model_observed": "builtin image_gen did not expose actual model id",
+      "prompt_file": "03-codex-perfume-three-prompt.txt",
+      "prompt_sha256": "e826aeafc0afa1ec6c645fcdcf8afdc49ff2d26a9b36fbace8f03301aab6bd19",
+      "references_count": 2
+    },
+    {
+      "id": "04",
+      "file": "04-workbuddy-balloon-v1.png",
+      "agent": "WorkBuddy (attribution from user context; filename lacks author marker)",
+      "cluster": "tiptoe-balloon",
+      "sha256": "d7bc5f758aff9cc86b166d3320f2aa8d7b2d5b819031090a208c3a05c9da44ff",
+      "recipe_version": "13.0",
+      "character_blocks_sha256": "d41f27ced75a41d20e7e4596c443715f6316a3d7f4febf5ac72d4da32e8a39cb",
+      "model_user_statement": "all generated using image-2",
+      "model_observed": "compiled generation config says gpt-image-2; backend response not available",
+      "prompt_file": "04-workbuddy-balloon-v1-prompt.txt",
+      "prompt_sha256": "9d9ca383ca1f82a030ae62290a514b45b4394c9112aa0406daef0bd88c97ccb3",
+      "references_count": 0
+    },
+    {
+      "id": "05",
+      "file": "05-workbuddy-balloon-v2.png",
+      "agent": "WorkBuddy (attribution from user context; filename lacks author marker)",
+      "cluster": "tiptoe-balloon",
+      "sha256": "0b31a11737f4c7396c9237ac25121627a78c24a85d1680bd7b449dee3f6228ea",
+      "recipe_version": "13.0",
+      "character_blocks_sha256": "d41f27ced75a41d20e7e4596c443715f6316a3d7f4febf5ac72d4da32e8a39cb",
+      "model_user_statement": "all generated using image-2",
+      "model_observed": "compiled generation config says gpt-image-2; backend response not available",
+      "prompt_file": "05-workbuddy-balloon-v2-prompt.txt",
+      "prompt_sha256": "d85f1520aa543f7943442be6c23c12d7024c55704a93f0ff74f04500c3580002",
+      "references_count": 0
+    },
+    {
+      "id": "06",
+      "file": "06-kimi-balloon.png",
+      "agent": "Kimi (filename and QA record)",
+      "cluster": "airborne-balloon",
+      "sha256": "58858329aa28637dd7ac0626149b3975c2c85d83b7a54848b9094da000dba002",
+      "recipe_version": "13.0",
+      "character_blocks_sha256": "d41f27ced75a41d20e7e4596c443715f6316a3d7f4febf5ac72d4da32e8a39cb",
+      "model_user_statement": "all generated using image-2",
+      "model_observed": "gpt-image-2 reported in local QA",
+      "prompt_file": "06-kimi-balloon-prompt.txt",
+      "prompt_sha256": "d50d77871520995bf08a61b1136756f3926d90be7d9ef914846c61ffd866bf83",
+      "references_count": 0
+    },
+    {
+      "file": "input-perfume.jpg",
+      "role": "edit input for image 03",
+      "sha256": "f7c4a8542793e09b555dd5e475eb2aaac87aa41d9f7851f208ef629b7f336931"
+    },
+    {
+      "file": "source-M0437.webp",
+      "role": "Linn Fritz Running; structure reference used in Codex runs",
+      "sha256": "356f472f869020a62f02a6eca5b5ad5f6af06c3802312dded4f4b4e30cd9f178"
+    },
+    {
+      "file": "source-M0583.webp",
+      "role": "Linn Fritz seated figure; pose reference used in Codex runs",
+      "sha256": "0cf24d238088887a157b55994a7c9d517af982b1925930e63cca0a266893e17b"
+    }
+  ]
+}
